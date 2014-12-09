@@ -1,0 +1,131 @@
+
+IEEEexample.bib 
+V1.13 (2008/09/30)
+Copyright (c) 2002-2008 by Michael Shell
+See: http://www.michaelshell.org/
+for current contact information.
+
+This is an example BibTeX database for the official IEEEtran.bst
+BibTeX style file.
+
+Some entries call strings that are defined in the IEEEabrv.bib file.
+Therefore, IEEEabrv.bib should be loaded prior to this file.
+Usage:
+
+\bibliographystyle{./IEEEtran}
+\bibliography{./IEEEabrv,./IEEEexample}
+
+
+Support sites:
+http://www.michaelshell.org/tex/ieeetran/
+http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/
+and/or
+http://www.ieee.org/
+
+*************************************************************************
+Legal Notice:
+This code is offered as-is without any warranty either expressed or
+implied; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE! 
+User assumes all risk.
+In no event shall IEEE or any contributor to this code be liable for
+any damages or losses, including, but not limited to, incidental,
+consequential, or any other damages, resulting from the use or misuse
+of any information contained here.
+
+All comments are the opinions of their respective authors and are not
+necessarily endorsed by the IEEE.
+
+This work is distributed under the LaTeX Project Public License (LPPL)
+( http://www.latex-project.org/ ) version 1.3, and may be freely used,
+distributed and modified. A copy of the LPPL, version 1.3, is included
+in the base LaTeX documentation of all distributions of LaTeX released
+2003/12/01 or later.
+Retain all contribution notices and credits.
+** Modified files should be clearly indicated as such, including  **
+** renaming them and changing author support contact information. **
+
+File list of work: IEEEabrv.bib, IEEEfull.bib, IEEEexample.bib,
+                   IEEEtran.bst, IEEEtranS.bst, IEEEtranSA.bst,
+                   IEEEtranN.bst, IEEEtranSN.bst, IEEEtran_bst_HOWTO.pdf
+*************************************************************************
+@article{phbiosensor:short,
+  author        = "K. de Mora and N. Joshi and B. L. Balint and F. B. Ward and
+	  A. Elfick and C. E. French",
+  title         = "A pH-based biosensor for detection of arsenic in drinking
+	  water",
+  journal       = "Analytical and Bioanalytical Chemistry",
+  volume        = "400",
+  year          = "2011",
+  pages         = "1031-1039"
+}
+
+
+@article{phbiosensor:long,
+  author        = "J. Aleksic and others",
+  title         = "Development of a novel biosensor for the detection of
+	  arsenic in drinking water",
+  journal       = "The Institution of Engineering and Technology Synthetic
+	  Biology",
+  volume        = "1",
+  number        = "1-2",
+  year          = "2007",
+  pages         = "87-90"
+}
+
+
+@article{nanowire,
+  author 	="Sufi Zafar and Christopher D’Emic and Ali Afzali and Benjamin
+	  Fletcher and Y Zhu and Tak Ning",
+  title		="Optimization of pH sensing using silicon nanowire field effect
+	  transistors with HfO 2 as the sensing surface",
+  journal	="Nanotechnology",
+  volume	="22",
+  number	="40",
+  pages		="405501",
+  year		="2011"
+}
+
+@misc{wiki:Biosensor_image,
+  author	="Dorothee Grieshaber",
+  title		="Biosensor System",
+  year		="2008",
+  url
+	  ={http://en.wikipedia.org/wiki/Biosensor#mediaviewer/File:Biosensor_System.jpg}
+}
+
+@inproceedings{RGS:arsenic_pollution,
+	author		= "Peter Ravenscroft",
+	title		= "Predicting the Global Distribution of Arsenic
+		Pollution in Groundwater",
+	intype		= "presented at the",
+	booktitle	= "Royal Geographical Society Annual International
+		Conference",
+	year		= "2007"
+}
+
+@electronic{ABC:home,
+  title         = "Arsenic Biosensor Collaboration",
+  url           = "http://arsenicbiosensor.org/index.html",
+  year          = "2009"
+}
+@electronic{ABC:field,
+  title         = "Arsenic Biosensor Collaboration",
+  url           = "http://arsenicbiosensor.org/fieldwork.html",
+  year          = "2009"
+}
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+  CTLuse_article_number     = "yes",
+  CTLuse_paper              = "yes",
+  CTLuse_forced_etal        = "no",
+  CTLmax_names_forced_etal  = "10",
+  CTLnames_show_etal        = "1",
+  CTLuse_alt_spacing        = "yes",
+  CTLalt_stretch_factor     = "4",
+  CTLdash_repeated_names    = "yes",
+  CTLname_format_string     = "{f.~}{vv~}{ll}{, jj}",
+  CTLname_latex_cmd         = "",
+  CTLname_url_prefix        = "[Online]. Available:"
+}
+
+
